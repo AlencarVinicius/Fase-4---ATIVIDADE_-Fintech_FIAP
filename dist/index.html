@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login - Fintech FIAP</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body{
+            font-family: Inter, sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="bg-gray-200">
+
+<main class="min-h-screen flex flex-col lg:flex-row">
+
+    <!-- Lado esquerdo -->
+
+    <section class="bg-green-700 flex-1 flex flex-col justify-between p-10 text-white">
+
+        <div>
+
+            <img
+                src="/dist/images/img_logo_login.png"
+                alt="Logo"
+                class="w-44"
+            >
+
+        </div>
+
+        <div class="space-y-6">
+
+            <h1 class="text-5xl font-bold leading-tight">
+                Sua vida financeira,<br>
+                finalmente em ordem.
+            </h1>
+
+            <p class="text-lg max-w-md">
+                Pagamentos, transferências e investimentos numa única conta digital.
+            </p>
+
+        </div>
+
+        <ul class="space-y-4">
+
+            <li class="flex items-center gap-4">
+
+                <img src="/dist/icons/icons_login/icon_um.png">
+
+                <div class="w-56 h-4 rounded bg-yellow-200"></div>
+
+            </li>
+
+            <li class="flex items-center gap-4">
+
+                <img src="/dist/icons/icons_login/icon_dois.png">
+
+                <div class="w-56 h-4 rounded bg-yellow-200"></div>
+
+            </li>
+
+            <li class="flex items-center gap-4">
+
+                <img src="/dist/icons/icons_login/icon_tres.png">
+
+                <div class="w-56 h-4 rounded bg-yellow-200"></div>
+
+            </li>
+
+        </ul>
+
+        <footer class="text-yellow-200 text-sm">
+            © 2026 Fintech FIAP
+        </footer>
+
+    </section>
+
+    <!-- Lado direito -->
+
+    <section class="flex-1 flex justify-center items-center p-6">
+
+        <div class="bg-white w-full max-w-md rounded-2xl shadow-xl p-10">
+
+            <div class="mb-8">
+
+                <h2 class="text-3xl font-bold">
+                    Entrar na conta
+                </h2>
+
+                <p class="text-gray-500 mt-2">
+                    Acesse com seu e-mail e senha
+                </p>
+
+            </div>
+
+            <form class="space-y-5">
+
+                <div>
+
+                    <label class="font-bold">
+                        E-mail
+                    </label>
+
+                    <input
+                        type="email"
+                        placeholder="Digite seu e-mail"
+                        class="mt-2 w-full h-12 px-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-600"
+                    >
+
+                </div>
+
+                <div>
+
+                    <label class="font-bold">
+                        Senha
+                    </label>
+
+                    <input
+                        type="password"
+                        placeholder="Digite sua senha"
+                        class="mt-2 w-full h-12 px-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-600"
+                    >
+
+                </div>
+
+                <div class="text-right">
+
+                    <a
+                        href="#"
+                        class="text-green-700 hover:underline"
+                    >
+                        Esqueci minha senha
+                    </a>
+
+                </div>
+
+                <button
+                    class="w-full h-12 rounded-lg bg-green-700 text-white font-semibold hover:bg-green-800 transition"
+                >
+                    Entrar
+                </button>
+
+                <div class="flex items-center">
+
+                    <div class="flex-1 h-px bg-gray-300"></div>
+
+                    <span class="mx-4 text-gray-500">
+                        ou
+                    </span>
+
+                    <div class="flex-1 h-px bg-gray-300"></div>
+
+                </div>
+
+                <button
+                    type="button"
+                    class="w-full h-12 rounded-lg border border-gray-300 bg-gray-100 hover:bg-gray-200 font-semibold transition"
+                >
+                    Continuar com Google
+                </button>
+
+                <p class="text-center">
+
+                    Não tem conta?
+
+                    <a
+                        href="#"
+                        class="text-green-700 font-semibold hover:underline"
+                    >
+                        Abrir grátis
+                    </a>
+
+                </p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</main>
+
+</body>
+</html>
